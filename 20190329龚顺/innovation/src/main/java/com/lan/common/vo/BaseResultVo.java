@@ -1,7 +1,6 @@
 package com.lan.common.vo;
 
 import com.github.pagehelper.PageInfo;
-import com.lan.innovation.pojo.Project;
 
 import java.io.Serializable;
 

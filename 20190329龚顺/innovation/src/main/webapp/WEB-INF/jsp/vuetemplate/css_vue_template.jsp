@@ -9,7 +9,7 @@
 <c:set value="${pageContext.request.contextPath}" var="path" scope="page"/>
 
 <style>
-    @import url("${path}/static/element/css/index.css");
+    @import url("${path}/static/lib/element/css/index.css");
     #app{
         width: 99%;
     }

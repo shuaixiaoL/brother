@@ -232,7 +232,7 @@
 
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="${path}/static/assets/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="${path}/static/lib/ace/assets/avatars/user.jpg" alt="Jason's Photo" />
                         <span class="user-info">
 									<small>欢迎,</small>
 									${sysUser.username}
@@ -259,7 +259,7 @@
                         <li class="divider"></li>
 --%>
                         <li>
-                            <a href="${path}/rest/api/innovation/loginout">
+                            <a href="${path}/rest/loginout">
                                 <i class="icon-off"></i>
                                 注销
                             </a>

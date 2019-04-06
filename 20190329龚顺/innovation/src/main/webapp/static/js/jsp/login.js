@@ -27,12 +27,11 @@ Login.prototype.attachEvent = function () {
             },
             timeout: 20000,
             success: function (data) {
-                console.log(data)
                 if(data.result == '0000') {
                     // window.location.href = bashPath + '/rest/index'
                     window.open(bashPath + '/rest/index','_parent');
                 } else {
-                    swal("账号密码错误", "", "error")
+                    swal(data.msg, "", "error")
                 }
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {

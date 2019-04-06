@@ -5,42 +5,42 @@
 
 <!-- basic styles -->
 <!--  bootstarp -->
-<link rel="stylesheet" href="${path}/static/bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" href="${path}/static/assets/css/font-awesome.min.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/font-awesome.min.css" />
 
 <!--[if IE 7]
 <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
 [endif]-->
 
 <!-- page specific plugin styles 插件方式 在最后-->
-<link rel="stylesheet" href="${path}/static/assets/css/jquery-ui-1.10.3.full.min.css" />
-<link rel="stylesheet" href="${path}/static/assets/css/datepicker.css" />
-<link rel="stylesheet" href="${path}/static/assets/css/ui.jqgrid.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/jquery-ui-1.10.3.full.min.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/datepicker.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/ui.jqgrid.css" />
 
 <!-- fonts 改为本地-->
-<link rel="stylesheet" href="${path}/static/assets/css/add/cyrillic.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/add/cyrillic.css" />
 
 <!-- ace styles -->
-<link rel="stylesheet" href="${path}/static/assets/css/ace.min.css" />
-<link rel="stylesheet" href="${path}/static/assets/css/ace-rtl.min.css" />
-<link rel="stylesheet" href="${path}/static/assets/css/ace-skins.min.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/ace.min.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/ace-rtl.min.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/assets/css/ace-skins.min.css" />
 <!--[if lte IE 8]
 <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
 [endif]-->
 <!--  bootstarp -->
-<link rel="stylesheet" href="${path}/static/bootstrap/plugin/bootstrap-table/css/bootstrap-table.min.css"/>
+<link rel="stylesheet" href="${path}/static/lib/ace/bootstrap/plugin/bootstrap-table/css/bootstrap-table.min.css"/>
 
-<link rel="stylesheet" href="${path}/static/sweetalert/sweetalert.css"/>
+<link rel="stylesheet" href="${path}/static/lib/sweetalert/sweetalert.css"/>
 <!-- 自己编写引入 -->
-<link rel="stylesheet" href="${path}/static/bootstrap/add/css/bootstrap-tab/bootstrap-tab.css" />
-<link rel="stylesheet" href="${path}/static/bootstrap/add/css/sidebar-menu/sidebar-menu.css"/>
+<link rel="stylesheet" href="${path}/static/lib/ace/bootstrap/add/css/bootstrap-tab/bootstrap-tab.css" />
+<link rel="stylesheet" href="${path}/static/lib/ace/bootstrap/add/css/sidebar-menu/sidebar-menu.css"/>
 
 
 
 <!-- inline styles related to this page 与此页相关的内联样式 -->
 <style type="text/css" rel="stylesheet">
     <%-- element --%>
-    @import url("${path}/static/element/css/index.css");
+    @import url("${path}/static/lib/element/css/index.css");
 
     .table th, .table td {
         text-align: center;

@@ -13,7 +13,7 @@
 </script>
 
 <!-- ace settings handler ACE设置处理程序 -->
-<script src="${path}/static/assets/js/ace-extra.min.js"></script>
+<script src="${path}/static/lib/ace/assets/js/ace-extra.min.js"></script>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries HTML5的垫片和respond.js IE8支持HTML5元素和媒体查询-->
 <!--[if lt IE 9]
